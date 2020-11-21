@@ -1,0 +1,7 @@
+org/example/GetApiwithSpecificResouceValidate.class
+org/example/PostApiValidation.class
+org/example/PutApiValidation.class
+org/example/DeletApiValidation.class
+org/example/BaseTest.class
+org/example/GetApiValidate.class
+org/example/GetApiValidateIncorrectResource.class

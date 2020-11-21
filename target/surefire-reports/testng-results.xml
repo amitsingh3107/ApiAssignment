@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="36072" started-at="2020-11-21T07:15:26Z" finished-at="2020-11-21T07:16:02Z">
+    <groups>
+    </groups>
+    <test name="API-TEST" duration-ms="36072" started-at="2020-11-21T07:15:26Z" finished-at="2020-11-21T07:16:02Z">
+      <class name="org.example.DeletApiValidation">
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.example.DeletApiValidation@3cbbc1e0]" name="setup" is-config="true" duration-ms="0" started-at="2020-11-21T12:45:59Z" finished-at="2020-11-21T12:45:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="deleteApiDataValidation()[pri:0, instance:org.example.DeletApiValidation@3cbbc1e0]" name="deleteApiDataValidation" duration-ms="1435" started-at="2020-11-21T12:45:59Z" finished-at="2020-11-21T12:46:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteApiDataValidation -->
+        <test-method status="PASS" signature="deleteApiStatusCodeValidation()[pri:0, instance:org.example.DeletApiValidation@3cbbc1e0]" name="deleteApiStatusCodeValidation" duration-ms="1636" started-at="2020-11-21T12:46:00Z" finished-at="2020-11-21T12:46:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteApiStatusCodeValidation -->
+      </class> <!-- org.example.DeletApiValidation -->
+      <class name="org.example.GetApiValidate">
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.example.GetApiValidate@366e2eef]" name="setup" is-config="true" duration-ms="12" started-at="2020-11-21T12:45:26Z" finished-at="2020-11-21T12:45:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getApiTestListCountValidation()[pri:0, instance:org.example.GetApiValidate@366e2eef]" name="getApiTestListCountValidation" duration-ms="5319" started-at="2020-11-21T12:45:26Z" finished-at="2020-11-21T12:45:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getApiTestListCountValidation -->
+        <test-method status="PASS" signature="getApiTestSchemaValidator()[pri:0, instance:org.example.GetApiValidate@366e2eef]" name="getApiTestSchemaValidator" duration-ms="2947" started-at="2020-11-21T12:45:31Z" finished-at="2020-11-21T12:45:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getApiTestSchemaValidator -->
+        <test-method status="PASS" signature="getApiTestStatusCodeValidator()[pri:0, instance:org.example.GetApiValidate@366e2eef]" name="getApiTestStatusCodeValidator" duration-ms="1974" started-at="2020-11-21T12:45:34Z" finished-at="2020-11-21T12:45:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getApiTestStatusCodeValidator -->
+      </class> <!-- org.example.GetApiValidate -->
+      <class name="org.example.PutApiValidation">
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.example.PutApiValidation@6df97b55]" name="setup" is-config="true" duration-ms="1" started-at="2020-11-21T12:45:54Z" finished-at="2020-11-21T12:45:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="putApiDataValidation()[pri:0, instance:org.example.PutApiValidation@6df97b55]" name="putApiDataValidation" duration-ms="1588" started-at="2020-11-21T12:45:54Z" finished-at="2020-11-21T12:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putApiDataValidation -->
+        <test-method status="PASS" signature="putApiSchemaValidation()[pri:0, instance:org.example.PutApiValidation@6df97b55]" name="putApiSchemaValidation" duration-ms="1933" started-at="2020-11-21T12:45:55Z" finished-at="2020-11-21T12:45:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putApiSchemaValidation -->
+        <test-method status="PASS" signature="putApiStatusCodeValidator()[pri:0, instance:org.example.PutApiValidation@6df97b55]" name="putApiStatusCodeValidator" duration-ms="1496" started-at="2020-11-21T12:45:57Z" finished-at="2020-11-21T12:45:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putApiStatusCodeValidator -->
+      </class> <!-- org.example.PutApiValidation -->
+      <class name="org.example.GetApiValidateIncorrectResource">
+        <test-method status="PASS" signature="getApiInvalidResourceSatusCodeValidation()[pri:0, instance:org.example.GetApiValidateIncorrectResource@35fb3008]" name="getApiInvalidResourceSatusCodeValidation" duration-ms="1744" started-at="2020-11-21T12:45:36Z" finished-at="2020-11-21T12:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getApiInvalidResourceSatusCodeValidation -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.example.GetApiValidateIncorrectResource@35fb3008]" name="setup" is-config="true" duration-ms="0" started-at="2020-11-21T12:45:36Z" finished-at="2020-11-21T12:45:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- org.example.GetApiValidateIncorrectResource -->
+      <class name="org.example.GetApiwithSpecificResouceValidate">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:org.example.GetApiwithSpecificResouceValidate@2d554825]" name="beforeTest" is-config="true" duration-ms="26" started-at="2020-11-21T12:45:26Z" finished-at="2020-11-21T12:45:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.example.GetApiwithSpecificResouceValidate@2d554825]" name="setup" is-config="true" duration-ms="0" started-at="2020-11-21T12:45:38Z" finished-at="2020-11-21T12:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getApiSingleResouceScemaValidation()[pri:0, instance:org.example.GetApiwithSpecificResouceValidate@2d554825]" name="getApiSingleResouceScemaValidation" duration-ms="3868" started-at="2020-11-21T12:45:38Z" finished-at="2020-11-21T12:45:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getApiSingleResouceScemaValidation -->
+        <test-method status="PASS" signature="getApiSingleResourceBodyValidation()[pri:0, instance:org.example.GetApiwithSpecificResouceValidate@2d554825]" name="getApiSingleResourceBodyValidation" duration-ms="2166" started-at="2020-11-21T12:45:42Z" finished-at="2020-11-21T12:45:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getApiSingleResourceBodyValidation -->
+        <test-method status="PASS" signature="getApiSingleResourceSizeValidation()[pri:0, instance:org.example.GetApiwithSpecificResouceValidate@2d554825]" name="getApiSingleResourceSizeValidation" duration-ms="1" started-at="2020-11-21T12:45:44Z" finished-at="2020-11-21T12:45:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getApiSingleResourceSizeValidation -->
+        <test-method status="PASS" signature="getApiSingleResourceStausCodeValidation()[pri:0, instance:org.example.GetApiwithSpecificResouceValidate@2d554825]" name="getApiSingleResourceStausCodeValidation" duration-ms="1516" started-at="2020-11-21T12:45:44Z" finished-at="2020-11-21T12:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getApiSingleResourceStausCodeValidation -->
+      </class> <!-- org.example.GetApiwithSpecificResouceValidate -->
+      <class name="org.example.PostApiValidation">
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.example.PostApiValidation@34b7bfc0]" name="setup" is-config="true" duration-ms="1" started-at="2020-11-21T12:45:45Z" finished-at="2020-11-21T12:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="postApiDataValidation()[pri:0, instance:org.example.PostApiValidation@34b7bfc0]" name="postApiDataValidation" duration-ms="4644" started-at="2020-11-21T12:45:45Z" finished-at="2020-11-21T12:45:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postApiDataValidation -->
+        <test-method status="PASS" signature="postApiSchemaValidation()[pri:0, instance:org.example.PostApiValidation@34b7bfc0]" name="postApiSchemaValidation" duration-ms="2285" started-at="2020-11-21T12:45:50Z" finished-at="2020-11-21T12:45:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postApiSchemaValidation -->
+        <test-method status="PASS" signature="postApiStatusCodeValidation()[pri:0, instance:org.example.PostApiValidation@34b7bfc0]" name="postApiStatusCodeValidation" duration-ms="1460" started-at="2020-11-21T12:45:52Z" finished-at="2020-11-21T12:45:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postApiStatusCodeValidation -->
+      </class> <!-- org.example.PostApiValidation -->
+    </test> <!-- API-TEST -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
