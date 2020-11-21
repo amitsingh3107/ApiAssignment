@@ -1,5 +1,6 @@
 #Required JAVA JDK for this project
-  JAVA JDK 1.8 
+JAVA JDK 1.8 
+
 # TO RUN Test cases
 mvn clean test -DsuiteXmlFile=src/test/resources/testng.xml
 
